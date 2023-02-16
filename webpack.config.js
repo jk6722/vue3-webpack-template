@@ -44,7 +44,7 @@ module.exports = {
         test: /\.s?css$/, //.css 또는 .scss로 끝나는 모든 파일을 찾겠다는 정규표현식
         use: [
           // 연결할 패키지의 이름
-          'vue-style-loader',
+          // 'vue-style-loader',
           'style-loader', // 해석한 css 파일을 index.html의 style 요소에 삽입해주는 패키지
           'css-loader',
           'postcss-loader',
